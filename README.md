@@ -28,7 +28,7 @@ Experience LEON live:
 
 LEON leverages a powerful and industry-standard tech stack for both its backend API and a dynamic frontend application.
 
-### Backend (ASP.NET Core) 🔙
+### Backend (ASP.NET Core) 🛡️
 
 Our robust backend API powers all the core functionalities:
 
@@ -39,7 +39,7 @@ Our robust backend API powers all the core functionalities:
 *   **ASP.NET Core Identity 9.0.11:** Comprehensive user and role management system.
 *   **Swagger 9.0.6:** Automatically generated, interactive API documentation for easy testing and understanding.
 
-### Frontend (React) 🔜
+### Frontend (React) 💻
 
 Our modern and responsive frontend provides an intuitive user experience:
 
@@ -70,7 +70,6 @@ LEON defines distinct roles with specific permissions to manage access effective
 | :----------- | :--------------------------------------------------------------------------------- |
 | 👑 **Admin** | Full access to all features, including comprehensive user and ticket management. |
 | 🧑‍💻 **Agent** | Can create, view, and update tickets, focusing on resolution tasks.                  |
-| 👤 **User**  | Able to create new tickets and track the status of their personal requests.        |
 
 ---
 
