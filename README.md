@@ -1,4 +1,4 @@
-# 🌟 LEON — Your Full-Stack Ticket Management System 🌟
+# 🌟 LEON — Your Full-Stack Ticket Management System
 
 Welcome to **LEON**, a modern and comprehensive full-stack ticket management platform designed to revolutionize how support teams handle customer requests. Say goodbye to scattered emails and manual tracking! LEON provides a structured, secure, and intuitive solution to organize, track, and resolve support tickets efficiently. 🚀
 
