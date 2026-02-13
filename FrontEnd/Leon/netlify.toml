@@ -1,0 +1,18 @@
+# Netlify configuration for the LEON frontend (React SPA)
+
+[build]
+  # No base needed — this file is already inside the FrontEnd/Leon folder
+  # Build command
+  command = "npm run build"
+  # Folder Vite outputs the built files to
+  publish = "dist"
+
+# SPA routing fix
+# React Router handles all navigation client-side.
+# Without this rule, Netlify looks for a real file at every URL (e.g. /ChatSystem)
+# and returns 404. This tells Netlify: serve index.html for any URL,
+# let React Router read the URL and render the correct page.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

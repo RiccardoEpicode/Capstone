@@ -1,0 +1,121 @@
+.enterprise-contact-form-modal .modal-content {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.enterprise-contact-form-modal .modal-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.enterprise-contact-form-modal .modal-title {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  width: 100%;
+}
+
+.enterprise-contact-form-modal .modal-body {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.enterprise-contact-form-modal .form-label {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.enterprise-contact-form-modal .form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  font-size: 1em;
+  color: #333;
+  box-shadow: none;
+}
+
+.enterprise-contact-form-modal .form-control:focus {
+  border-color: #8c8c8c;
+  box-shadow: 0 0 0 0.1rem rgba(140, 140, 140, 0.25);
+}
+
+.enterprise-contact-form-modal textarea.form-control {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.enterprise-contact-form-modal .btn-primary {
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+}
+
+.enterprise-contact-form-modal .btn-primary:hover {
+  background-color: #5d36a3;
+  border-color: #5d36a3;
+}
+
+.enterprise-contact-form-modal .btn-secondary {
+  background-color: #ff2000db;
+  border-color: #6c757d;
+  color: #fbfbfb !important;
+  font-weight: 400;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+}
+
+.enterprise-contact-form-modal .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+/* Adjusting spacing and alignment */
+.enterprise-contact-form-modal .text-center {
+  text-align: center;
+}
+
+.enterprise-contact-form-modal .mb-6 {
+  margin-bottom: 1.5rem !important;
+}
+
+.enterprise-contact-form-modal .space-x-4 > * + * {
+  margin-left: 1rem !important;
+}
+
+.enterprise-contact-form-modal .w-full {
+  width: 100% !important;
+}
+
+.enterprise-contact-form-modal .md\:w-1\/2 {
+  width: 50% !important;
+}
+
+.enterprise-contact-form-modal .modal-body .form-container {
+  margin: -1rem;
+}
+
+.enterprise-contact-form-modal .form-description {
+  color: #888;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 994px) {
+  .features-grid-section .col-lg-4,
+  .features-grid-section .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

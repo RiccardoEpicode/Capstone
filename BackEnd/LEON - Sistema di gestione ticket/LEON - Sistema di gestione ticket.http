@@ -1,0 +1,6 @@
+@LEON___Sistema_di_gestione_ticket_HostAddress = http://localhost:5168
+
+GET {{LEON___Sistema_di_gestione_ticket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
